@@ -31,39 +31,6 @@ Run the notebook (only once) to split the training, validation, and testing data
 
 hungto/ExternalLibs/RL2Grid_v0/RL2Grid/tutorials/split_data.ipynb
 
-## ⚙️ 3. Classard Function Paper
-
-This repository contains the code used in my research paper on **reward function design for power grid control**.
-The implementation builds upon the  [RL2Grid](https://openreview.net/forum?id=7J2C4QnQrl) framework (OpenReview version).
-
-Follow the steps below to reproduce the result of my paper.
-
----
-
-## 🛠️ 1. Installation
-
-First, install Miniconda, cd to this folder, run these to create, activate the conda environment, and install hungto lib (my lib) in editable mode:
-
-```bash
-conda env create -f conda_env.yml
-conda activate hungto-reward
-pip install -e .
-```
-
-Then, install the required power grid simulation packages:
-
-```bash
-pip install grid2op==1.10.2
-pip install lightsim2grid
-pip install pandapower==2.14.11
-```
-
-## 🗂️ 2. Data Preparation
-
-Run the notebook (only once) to split the training, validation, and testing datasets if you have not:
-
-hungto/ExternalLibs/RL2Grid_v0/RL2Grid/tutorials/split_data.ipynb
-
 ## ⚙️ 3. Class Generation
 
 This is for dealing with this kind of bug [https://grid2op.readthedocs.io/en/latest/troubleshoot.html]
