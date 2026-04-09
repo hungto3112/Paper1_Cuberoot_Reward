@@ -40,7 +40,7 @@ Before running training, modify the following file:
 hungto/ExternalLibs/RL2Grid_v0/RL2Grid/env/utils.py
 Inside the make_env() function, temporarily set:
 
-generate_class = True
+generate_class = True,
 experimental_read_from_local_dir = False
 
 Then run the following command to generate the environment:
@@ -50,7 +50,7 @@ python hungto/ExternalLibs/RL2Grid_v0/RL2Grid/main.py --alg PPO --total-timestep
 ```
 
 You will see a message confirming successful offline class generation.
-
+Do this for all train, val, test env
 ## 🔁 4. Restore Environment Flags and Train
 
 Now revert the changes in make_env():
