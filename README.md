@@ -31,7 +31,7 @@ Run the notebook (only once) to split the training, validation, and testing data
 
 hungto/ExternalLibs/RL2Grid_v0/RL2Grid/tutorials/split_data.ipynb
 
-and run the second cell too, if so, you can skip the  3. Environment Generation
+and run the second cell too (with admin right), if so, you can skip the  3. Environment Generation
 
 ## ⚙️ 3. Class Generation
 
